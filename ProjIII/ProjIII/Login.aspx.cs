@@ -15,7 +15,7 @@ namespace ProjIII
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            sqlConnection =  new SqlConnection()
         }
 
         protected void btnLogar_Click(object sender, EventArgs e)

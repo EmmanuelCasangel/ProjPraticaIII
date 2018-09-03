@@ -11,7 +11,16 @@
     <center>
         <form id="form1" runat="server">
             <div>
-                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                <asp:Label ID="lblemail" runat="server" Text="Email:"></asp:Label>
+                <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
+                <br />
+                <asp:Label ID="lblSenha" runat="server" Text="Senha:"></asp:Label>
+                <asp:TextBox ID="txtSenha" runat="server"></asp:TextBox>
+                <br />
+                <asp:Button ID="btnLogar" runat="server" OnClick="btnLogar_Click" Text="Logar" />
+&nbsp;
+                <asp:Button ID="btnCadastrar" runat="server" Text="Cadastrar" />
+                <br />
             </div>
         </form>
     </center>
