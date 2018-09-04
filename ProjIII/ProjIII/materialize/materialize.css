@@ -2353,6 +2353,8 @@ audio:not([controls]) {
  */
 img {
   border-style: none;
+    margin-left: 5px;
+    margin-top: 0px;
 }
 
 /**
@@ -3502,8 +3504,9 @@ table span.badge {
 .row .col.s2 {
   width: 16.6666666667%;
   margin-left: auto;
-  left: auto;
-  right: auto;
+  left: -15px;
+  right: 15px;
+    top: -2px;
 }
 
 .row .col.s3 {
