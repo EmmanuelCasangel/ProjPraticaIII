@@ -78,7 +78,7 @@
                     <input placeholder="Cod Cad" id="txtCodCad" type="text" class="validate" runat="server">
                     <label for="txtCodCad">Codigo cadastro</label>
                 </div>       
-                &nbsp;<img src="imagens/usuario.jpg" height="180" width="180"  /></div>
+                &nbsp;<img src="imagens/usuario.jpg" height="180" width="180" /></div>
             
             
 
