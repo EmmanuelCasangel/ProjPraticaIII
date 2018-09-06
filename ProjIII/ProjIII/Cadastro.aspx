@@ -14,11 +14,14 @@
     <link href="materialize/materialize.css" rel="stylesheet" />
     <script src="materialize/materialize.js"></script>
 
+
+
 </head>
 <body>
-    <form id="form1" runat="server">
-        
+<div class="container">
+    <form id="form1" runat="server" class="col s6">
         <div class="container">
+        
             <div class="row">
                <div class="input-field col s6">
                     <input placeholder="Email" id="txtEmail" type="text" class="validate" runat="server">
@@ -41,52 +44,55 @@
             </div>
 
             <div class="row">
-                <div class="input-field col s4">
+                <div class="input-field col s3">
                     <input placeholder="Cidade" id="txtCidade" type="text" class="validate" runat="server">
                     <label for="txtCidade">Cidade</label>
                 </div>
 
-                <div class="input-field col s2">
+                <div class="input-field col s3">
                     <input placeholder="Estado" id="txtEstado" type="text" class="validate" runat="server">
                     <label for="txtEstado">Estado</label>
                 </div>
             </div>
 
+         
+
+
+
             <div class="row">
-                <div class="input-field col s3">
-                    <input placeholder="Idade" id="txtIdade" type="text" class="validate" runat="server">
+                <div class="input-field col s3 ">
+                    <input placeholder="Idade" id="txtIdade" type="text" class="validate" runat="server"/>
                     <label for="txtIdade">Idade</label>
                 </div>
 
                 <div class="input-field col s3">
-                    <input placeholder="Celular" id="txtCelular" type="text" class="validate" runat="server">
+                    <input placeholder="Celular" id="txtCelular" type="text" class="validate" runat="server"/>
                     <label for="txtCelular">Celular</label>
                 </div>
             </div>
 
-             <div class="row">
-           
-             <div class="input-field col s12">
-         
-                    <select>
-                        <option value="" disabled selected>Choose your option</option>
-                        <option value="1">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                    </select>             
-                 </div>
+          
+            <div class="row">
+                <div class="input-field col s3">
+                    <input placeholder="Funcao" id="txtFuncao" type="text" class="validate" runat="server"/>
+                    <label for="txtFuncao">Funcao</label>
+                </div>
 
-           
+                <div class="input-field col s2">
                     <asp:Image ID="Image1" runat="server" ImageUrl="imagens/usuario.jpg" Height="180px" />
-                <br /> 
-
+                </div>
+                
             </div>
+         
+            <center>
+                <div class="row">
+                    <asp:Button  ID="Button1" runat="server" Text="Cadastrar" class="waves-effect waves-light btn-large" OnClick="Button1_Click" />
+                </div>
+            </center>
+        
 
-        <div class="row">
-            <asp:Button ID="btnCadastrar" runat="server" Text="Cadastrar" class="waves-effect waves-light btn-large" />                       
         </div>
-
-
     </form>
+</div>
 </body>
 </html>

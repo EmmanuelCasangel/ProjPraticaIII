@@ -61,5 +61,9 @@ namespace ProjIII
 
         }
 
+        protected void btnCadastro_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

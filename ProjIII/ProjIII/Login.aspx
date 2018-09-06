@@ -33,6 +33,7 @@
             <asp:Label ID="lblMensagem" runat="server"></asp:Label>
         </div>
     </div>
+
     <center>
         <div class="row">
           <asp:Button ID="btnCadastro" runat="server" Text="Cadastrar" class="waves-effect waves-light btn-large" />
