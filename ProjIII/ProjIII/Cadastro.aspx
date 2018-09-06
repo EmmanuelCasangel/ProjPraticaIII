@@ -83,10 +83,12 @@
                 </div>
                 
             </div>
+          
          
             <center>
                 <div class="row">
                     <asp:Button  ID="Button1" runat="server" Text="Cadastrar" class="waves-effect waves-light btn-large" OnClick="Button1_Click" />
+                    
                 </div>
             </center>
         
