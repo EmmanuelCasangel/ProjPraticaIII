@@ -64,26 +64,28 @@
                 </div>
             </div>
 
-            
-            
-            <div class="row">
-                <div class="input-field col s3">
-                    <input placeholder="Funcao" id="txtFuncao" type="text" class="validate" runat="server">
-                    <label for="txtFuncao">Funcao</label>
-                </div>               
+             <div class="row">
+           
+             <div class="input-field col s12">
+         
+                    <select>
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>             
+                 </div>
+
+           
+                    <asp:Image ID="Image1" runat="server" ImageUrl="imagens/usuario.jpg" Height="180px" />
+                <br /> 
+
             </div>
 
-            <div class="row">
-                <div class="input-field col s3">
-                    <input placeholder="Cod Cad" id="txtCodCad" type="text" class="validate" runat="server">
-                    <label for="txtCodCad">Codigo cadastro</label>
-                </div>       
-                &nbsp;<img src="imagens/usuario.jpg" height="180" width="180" /></div>
-            
-            
-
-
+        <div class="row">
+            <asp:Button ID="btnCadastrar" runat="server" Text="Cadastrar" class="waves-effect waves-light btn-large" />                       
         </div>
+
 
     </form>
 </body>

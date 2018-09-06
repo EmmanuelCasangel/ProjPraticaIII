@@ -85,21 +85,21 @@ namespace ProjIII {
         protected global::System.Web.UI.HtmlControls.HtmlInputText txtCelular;
         
         /// <summary>
-        /// Controle txtFuncao.
+        /// Controle Image1.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtFuncao;
+        protected global::System.Web.UI.WebControls.Image Image1;
         
         /// <summary>
-        /// Controle txtCodCad.
+        /// Controle btnCadastrar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtCodCad;
+        protected global::System.Web.UI.WebControls.Button btnCadastrar;
     }
 }
