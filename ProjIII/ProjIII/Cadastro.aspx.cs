@@ -21,7 +21,7 @@ namespace ProjIII
             txtNome.Value = "DEu certo";
             txtSenha.Value = "DEu certo";
             txtEmail.Value = "DEu certo";
-            teste.Text = "DEu certo";
+            
 
         }
 
@@ -31,7 +31,7 @@ namespace ProjIII
             txtSenha.Value = "DEu certo";
             txtEmail.Value = "DEu certo";   
             txtNome.Value = "DEu certo";
-            teste.Text = "DEu certo";
+          
 
         }
     }

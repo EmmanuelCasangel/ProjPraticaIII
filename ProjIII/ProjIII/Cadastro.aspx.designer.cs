@@ -73,7 +73,7 @@ namespace ProjIII {
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtIdade;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl txtIdade;
         
         /// <summary>
         /// Controle txtCelular.
@@ -85,13 +85,40 @@ namespace ProjIII {
         protected global::System.Web.UI.HtmlControls.HtmlInputText txtCelular;
         
         /// <summary>
-        /// Controle CheckBoxList1.
+        /// Controle rbtnPaciente.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxList1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton rbtnPaciente;
+        
+        /// <summary>
+        /// Controle rbtnSecretaria.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton rbtnSecretaria;
+        
+        /// <summary>
+        /// Controle rbtnMedico.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton rbtnMedico;
+        
+        /// <summary>
+        /// Controle btnFuncao.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnFuncao;
         
         /// <summary>
         /// Controle Image1.
@@ -101,15 +128,6 @@ namespace ProjIII {
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image Image1;
-        
-        /// <summary>
-        /// Controle teste.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label teste;
         
         /// <summary>
         /// Controle Button1.

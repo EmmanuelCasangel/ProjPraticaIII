@@ -14,12 +14,7 @@
     <link href="materialize/materialize.css" rel="stylesheet" />
     <script src="materialize/materialize.js"></script>
 
-    <script  type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function () {
-            var elems = document.querySelectorAll('select');
-            var instances = M.FormSelect.init(elems, options);
-        });
-    </script>
+    
     <style type="text/css">
        body {
           background: #222;
@@ -37,7 +32,7 @@
           background: white;
           padding: 20px 25px;
           border: 5px solid #26a69a;
-          width: 550px;
+          width: 650px;
           height: auto;
           box-sizing: border-box;
           position: relative;
@@ -54,10 +49,11 @@
 
 </head>
 <body>
+    
+<form id="form1" runat="server" >
     <div class="container">
-    <form id="form1" runat="server" >
        <div class="row">
-        <div class="col s6 offset-s3">
+        <div class="col s8 offset-s2">
 
             <div class="row">
                <div class="input-field">
@@ -94,8 +90,10 @@
 
 
             <div class="row">
+
+                
                 <div class="input-field col s6">
-                    <input placeholder="Idade" id="txtIdade" type="text" class="validate" runat="server"/>
+                    <input placeholder="Idade" id="txtIdade" type="date" class="datepicker" runat="server"/>
                     <label for="txtIdade">Idade</label>
                 </div>
 
@@ -107,17 +105,29 @@
 
           
             <div class="row">
-                <asp:CheckBoxList ID="CheckBoxList1" runat="server">
-                    <asp:ListItem>Medico</asp:ListItem>
-                    <asp:ListItem>Paciente</asp:ListItem>
-                    <asp:ListItem>Secretaria</asp:ListItem>
-                </asp:CheckBoxList>
+            
+                <label>
+                    <input  id="rbtnPaciente" name="group1" type="radio"  value="Paciente" runat="server"/>
+                    <span>Paciente</span>
+                </label>            
+            
+                <label>
+                    <input id="rbtnSecretaria" name="group1" type="radio" value="Secretraria" runat="server" />
+                    <span>Secretraria</span>
+                </label>
+            
+                <label>
+                    <input  id="rbtnMedico" name="group1" type="radio" value="Medico" runat="server"/>
+                    <span>Medico</span>               
+                </label>    
+
+                 <asp:Button ID="btnFuncao" runat="server" Text="Button" class="waves-effect waves-light btn-small" />
+
             </div>
 
             <div class="row">
                 <div class="col s6 offset-s5">
                     <asp:Image ID="Image1" runat="server" ImageUrl="imagens/usuario.jpg" Height="180px" />
-                    <asp:Label ID="teste" runat="server" Text="Label"></asp:Label>
                     
                </div>
                 
@@ -133,8 +143,28 @@
 
         </div>
        </div>
-    </form>
+
     </div>
+</form>
     
+    <script  type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('select');
+            var instances = M.FormSelect.init(elems, options);
+        });
+        document.addEventListener('DOMContentLoaded', function () {
+            var options = {
+                defaultDate: new Date(2018, 1, 3),
+                setDefaultDate: true
+            };
+            var elems = document.querySelector('.datepicker');
+            var instance = M.Datepicker.init(elems, options);
+            // instance.open();
+            instance.setDate(new Date(2018, 2, 8));
+        });
+ 
+
+    </script>
+
 </body>
 </html>
