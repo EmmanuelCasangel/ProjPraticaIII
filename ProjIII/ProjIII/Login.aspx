@@ -38,6 +38,7 @@
         <center>
             <div class="row">
               <asp:Button ID="btnCadastro" runat="server" Text="Cadastrar" class="waves-effect waves-light btn-large" />
+                
               <asp:Button ID="btnLogin" runat="server" Text="Logar" class="waves-effect waves-light btn-large" OnClick="btnLogin_Click" />
             </div>
         </center>

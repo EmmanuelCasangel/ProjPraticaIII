@@ -16,11 +16,22 @@ namespace ProjIII
 
         protected void btnCadastrar_Click(object sender, EventArgs e)
         {
+            txtCelular.Value = "DEu certo";
+            txtCidade.Value = "DEu certo";
+            txtNome.Value = "DEu certo";
+            txtSenha.Value = "DEu certo";
+            txtEmail.Value = "DEu certo";
+            teste.Text = "DEu certo";
 
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            txtCidade.Value = "DEu certo";
+            txtSenha.Value = "DEu certo";
+            txtEmail.Value = "DEu certo";   
+            txtNome.Value = "DEu certo";
+            teste.Text = "DEu certo";
 
         }
     }

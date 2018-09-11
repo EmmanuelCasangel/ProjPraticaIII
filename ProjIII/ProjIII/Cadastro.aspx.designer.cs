@@ -85,6 +85,15 @@ namespace ProjIII {
         protected global::System.Web.UI.HtmlControls.HtmlInputText txtCelular;
         
         /// <summary>
+        /// Controle CheckBoxList1.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxList1;
+        
+        /// <summary>
         /// Controle Image1.
         /// </summary>
         /// <remarks>
@@ -92,6 +101,15 @@ namespace ProjIII {
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image Image1;
+        
+        /// <summary>
+        /// Controle teste.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label teste;
         
         /// <summary>
         /// Controle Button1.
