@@ -85,15 +85,6 @@ namespace ProjIII {
         protected global::System.Web.UI.HtmlControls.HtmlInputText txtCelular;
         
         /// <summary>
-        /// Controle txtFuncao.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtFuncao;
-        
-        /// <summary>
         /// Controle Image1.
         /// </summary>
         /// <remarks>

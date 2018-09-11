@@ -14,36 +14,37 @@
 
 </head>
 <body>
-<div class="container">
+
  
 <form id="form1" runat="server" >
-      <div class="container">
-        <div class="row">
-            <div class="input-field col s12">
-                <input placeholder="Email" id="txtEmail" type="text" class="validate" runat="server">
-                <label for="txtEmail">First Name</label>
+        
+        <div class="container" >
+            <div class="row">
+                <div class="input-field col s6">
+                    <input placeholder="Email" id="txtEmail" type="text" class="validate" runat="server">
+                    <label for="txtEmail">First Name</label>
+                </div>
             </div>
-        </div>
     
-        <div class="row">
-            <div class="input-field col s12 ">
-              <input  placeholder="Senha" id="txtSenha" type="text" class="validate" runat="server">
-              <label for="txtSenha">Last Name</label>
+            <div class="row">
+                <div class="input-field col s6 ">
+                  <input  placeholder="Senha" id="txtSenha" type="text" class="validate" runat="server">
+                  <label for="txtSenha">Last Name</label>
+                </div>
+                <asp:Label ID="lblMensagem" runat="server"></asp:Label>
             </div>
-            <asp:Label ID="lblMensagem" runat="server"></asp:Label>
         </div>
-    </div>
 
-    <center>
-        <div class="row">
-          <asp:Button ID="btnCadastro" runat="server" Text="Cadastrar" class="waves-effect waves-light btn-large" />
-          <asp:Button ID="btnLogin" runat="server" Text="Logar" class="waves-effect waves-light btn-large" OnClick="btnLogin_Click" />
-        </div>
-    </center>
+        <center>
+            <div class="row">
+              <asp:Button ID="btnCadastro" runat="server" Text="Cadastrar" class="waves-effect waves-light btn-large" />
+              <asp:Button ID="btnLogin" runat="server" Text="Logar" class="waves-effect waves-light btn-large" OnClick="btnLogin_Click" />
+            </div>
+        </center>
+   
 
            
 </form>
-</div>
            
 </body>
 </html>
